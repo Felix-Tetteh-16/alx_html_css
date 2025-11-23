@@ -3,7 +3,7 @@
   src: url(./fonts/SourceSansPro-Bold.otf);
 }
 
-@font-face{
+@font-face {
   font-family: Source-Sans-pro;
   src: url(./fonts/SourceSansPro-Regular.otf);
 }
@@ -240,15 +240,15 @@ span {
   font-weight: bold;
 }
 
-.container{
+.container {
   width: 100%;
   height: auto;
   position: absolute;
   top: 209%;
-  padding: 5px 3rem 0 3rem;
+  padding: 5px 3rem 4rem 3rem;
 }
 
-.mini-container{
+.mini-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -263,12 +263,12 @@ span {
   height: auto;
 }
 
-.text-popular h3{
+.text-popular h3 {
   font-size: 32px;
   font-weight: bold;
 }
 
-.video-tutorials{
+.video-tutorials {
   width: 100%;
   height: auto;
   display: flex;
@@ -278,7 +278,7 @@ span {
   gap: 1rem;
 }
 
-.video{
+.video {
   width: 100%;
   height: auto;
   display: flex;
@@ -288,25 +288,25 @@ span {
   gap: 0.5rem;
 }
 
-.video img{
+.video img {
   width: fit-content;
   height: auto;
 }
 
-.video h3{
+.video h3 {
   font-size: 16px;
   font-weight: bold;
   padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
-.video p{
+.video p {
   font-size: 14px;
   font-weight: 400;
   color: #071629;
   padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
-.view{
+.view {
   width: 100%;
   height: auto;
   display: flex;
@@ -316,28 +316,28 @@ span {
   gap: 0.9rem;
 }
 
-.image1-only{
+.image1-only {
   width: fit-content;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  gap: 1rem ;
+  gap: 1rem;
 }
 
-.image1-only img{
+.image1-only img {
   width: 30px;
   border-radius: 100px;
 }
 
-.image1-only p{
+.image1-only p {
   color: #c271ff;
   font-size: 14px;
   font-weight: bold;
 }
 
-.star{
+.star {
   width: 100%;
   height: auto;
   display: flex;
@@ -348,7 +348,7 @@ span {
   color: #c271ff;
 }
 
-.star .time p{
+.star .time p {
   color: #c271ff;
 }
 
@@ -365,6 +365,7 @@ span {
   background-color: #071629;
   color: white;
   gap: 3rem;
+  padding: 5rem 0;
 }
 
 .members-group {
@@ -414,4 +415,112 @@ button{
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.faq{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  top: 789px ;
+  padding: 3rem 8rem;
+  gap: 2rem;
+}
+
+.faq-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 8rem ;
+}
+
+.left-faq{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+}
+
+.left-faq h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.faq-text{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+
+.right-faq{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+}
+
+.right-faq h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+footer{
+  background: #071629;
+  padding: 1rem 7rem;
+  position: relative;
+  top: 800px;
+  width: 100%;
+  height: auto;
+}
+
+.foot{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-footer{
+  width: 100%;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column ;
+  justify-content: start;
+  align-items: center;
+}
+
+.foot img{
+  width: 100px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.icons i{
+  width: 100%;
+  font-size: 18px;
+
 }
