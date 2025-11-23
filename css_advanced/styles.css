@@ -351,3 +351,67 @@ span {
 .star .time p{
   color: #c271ff;
 }
+
+/* free membrship styles */
+.Free {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 785px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: #071629;
+  color: white;
+  gap: 3rem;
+}
+
+.members-group {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 10rem;
+}
+
+.members{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.members img{
+  width: 200px;
+}
+
+.members h3{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.members p{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+button{
+  border: none;
+  outline: none;
+  border-radius: 22px;
+  color: white;
+  background-color: #c271ff;
+  width: 162px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
